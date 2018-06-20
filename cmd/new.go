@@ -13,7 +13,7 @@ var newCmd = &cobra.Command{
 	Use:   "new",
 	Short: "Copies a new URL for a custom meme to clipboard",
 	Long: `How to use it:
-$ meme-bot new kermit "some top words" "some bottom words"
+$ ./meme-bot new kermit "some top words" "some bottom words"
 
 Now the string "https://memegen.link/kermit/some_top_words/some_bottom_words.jpg" will be 
 copied to your clipboard.

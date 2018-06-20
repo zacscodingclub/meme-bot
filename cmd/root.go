@@ -13,7 +13,7 @@ var rootCmd = &cobra.Command{
 	Short: "Generates link to your customized meme.",
 	Long: `Creates a customized meme using one of many templates and copies the URL 
 to your clipboard.  For example:
- $ meme-bot new icanhas "i can haz" "customized meme"
+ $ ./meme-bot new icanhas "i can haz" "customized meme"
 Copies this URL string to your clipboard so you can use it later: 
   https://memegen.link/icanhas/i_can_haz/customized_meme.jpg
 `,
